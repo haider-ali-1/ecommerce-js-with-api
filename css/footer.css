@@ -1,0 +1,12 @@
+footer {
+  background-color: var(--color-footer-bg);
+  color: var(--color-footer-text);
+  font-size: 1.25rem;
+  padding-block: 1rem
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

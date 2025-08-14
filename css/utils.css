@@ -1,0 +1,47 @@
+/* Utilities */
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding-inline: 1rem;
+  margin-inline: auto;
+}
+
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 1rem 2rem;
+  margin-inline: auto;
+  box-shadow: 0px 0px 2px 2px var(--color-border);
+  border-radius: 4px;
+  margin-block: 2rem;
+  background-color: var(--color-surface);
+}
+
+form {
+  font-size: 1.5rem;
+}
+
+form .input-container:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+form input {
+  border: 2px solid var(--color-border);
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+form button {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  cursor: pointer;
+}
